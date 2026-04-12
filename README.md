@@ -1,67 +1,65 @@
-# 🌐 Sistema de Monitoramento de Ambientes Inteligentes
-
+<!-- BANNER ANIMADO -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-00ff88?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Java-POO-orange?style=for-the-badge&logo=java"/>
-  <img src="https://img.shields.io/badge/Arduino-IoT-blue?style=for-the-badge&logo=arduino"/>
-  <img src="https://img.shields.io/badge/UI/UX-Figma-purple?style=for-the-badge&logo=figma"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=30&center=true&vCenter=true&width=1000&lines=Sistema+de+Monitoramento+de+Ambientes+Inteligentes;Projeto+Integrador+V+-+PUC+GOIÁS;IoT+%2B+Java+%2B+Interface+Gráfica;Tecnologia+e+Inovação+🚀" />
 </p>
 
 <p align="center">
-  💡 Projeto Integrador V – B  
-  🎓 PUC Goiás - Análise e Desenvolvimento de Sistemas  
+  <img src="https://img.shields.io/badge/Status-Concluído-00ff88?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/Projeto-Integrador-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Foco-IoT-purple?style=for-the-badge"/>
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+# 🌐 Sistema de Monitoramento de Ambientes Inteligentes
 
-Este projeto tem como objetivo desenvolver um **Sistema de Monitoramento de Ambientes Inteligentes**, integrando **hardware + software + interface gráfica**, permitindo acompanhar dados ambientais em tempo real.
+<p align="center">
+  💡 Integração completa entre Hardware, Software e Interface  
+</p>
 
-🔎 O sistema simula um dispositivo inteligente capaz de monitorar:
+---
+
+## 🧠 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte do **Projeto Integrador V – B** da PUC Goiás, com o objetivo de criar um sistema inteligente capaz de monitorar ambientes em tempo real.
+
+💡 A solução integra:
+
+- 🔌 **Arduino (IoT)**
+- ☕ **Java (Processamento)**
+- 🎨 **Interface gráfica (UI/UX)**
+
+📊 O sistema monitora:
 
 - 🌡️ Temperatura  
 - 💧 Umidade  
 - 💡 Luminosidade  
 
-📲 Exibindo tudo em uma interface intuitiva inspirada em aplicativos mobile.
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=java,figma" />
+<br><br>
+
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tinkercad-ff6f00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide"/>
+<img src="https://img.shields.io/badge/Lucidchart-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma"/>
+
+</p>
 
 ---
 
-## 🎯 Objetivo
+## 🧩 Arquitetura do Sistema
 
-Criar uma solução completa que una:
-
-- 🔌 Internet das Coisas (IoT)
-- 💻 Programação em Java
-- 📊 Visualização de Dados
-- 🎨 Design de Interface
-
----
-
-## 🧠 Tecnologias Utilizadas
-
-<div align="center">
-
-| Tecnologia | Descrição |
-|----------|--------|
-| 🟦 **Arduino UNO** | Simulação de sensores |
-| 🧪 **Tinkercad** | Protótipo eletrônico |
-| ☕ **Java** | Processamento dos dados |
-| 🖥️ **Eclipse IDE** | Desenvolvimento do sistema |
-| 📊 **Lucidchart** | Diagrama UML |
-| 🎨 **Figma** | Protótipo da interface |
-
-</div>
-
----
-
-## ⚙️ Arquitetura do Projeto
-
-```bash
-📁 Monitoramento-Ambiente
- ┣ 📂 src
- ┃ ┣ 📜 Monitoramento.java
- ┃ ┣ 📜 SensorData.java
- ┃ ┗ 📜 SimuladorArduino.java
- ┗ 📄 README.md
+```mermaid
+flowchart LR
+A[Arduino] --> B[Coleta de Dados]
+B --> C[Java]
+C --> D[Processamento]
+D --> E[Interface Figma]
+E --> F[Usuário]
