@@ -1,58 +1,62 @@
 # 🌐 Smart IoT Environment Monitoring System
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=28&center=true&vCenter=true&width=1000&lines=Smart+IoT+Environment+Monitoring+System;Monitoramento+Inteligente+em+Tempo+Real;Arduino+%2B+Java+%2B+Interface+Mobile;Tecnologia+%7C+Inovação+%7C+Automação" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/IoT-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/UI-Mobile-9C27B0?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-2962FF?style=for-the-badge"/>
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=28&center=true&vCenter=true&width=1000&lines=Sistema+de+Monitoramento+Inteligente;IoT+%2B+Arduino+%2B+Java;Monitoramento+em+Tempo+Real;Projeto+Integrador+Profissional" />
 </p>
 
 ---
 
-## 🚀 Sobre o Projeto
+## 📖 Sobre o Projeto
 
-> 💡 Sistema inteligente baseado em IoT para monitoramento de ambientes em tempo real.
+O **Smart IoT Environment Monitoring System** é um sistema desenvolvido para monitorar condições ambientais em tempo real utilizando sensores físicos e tecnologias de software.
 
-Integra hardware, software e interface moderna para análise de dados ambientais.
-
----
-
-## 🧠 Tecnologias Utilizadas
-
-### 🚀 Stack Principal
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,arduino,git,github,figma" />
-</p>
+Este projeto foi criado como parte do **Projeto Integrador V – B** do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de aplicar, na prática, conceitos estudados ao longo do curso.
 
 ---
 
-### 🛠️ Tecnologias Detalhadas
+## 💡 O que é este projeto?
 
-<p align="center">
+Este projeto é um sistema que simula uma **casa inteligente (Smart Home)**.
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/UML-FFCA28?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma"/>
-<img src="https://img.shields.io/badge/Tinkercad-FF6F00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/IoT-00C853?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Sensores-03A9F4?style=for-the-badge"/>
+Ele permite:
 
-</p>
+- 🌡️ Medir temperatura do ambiente  
+- 💧 Verificar umidade do ar  
+- 💡 Detectar luminosidade  
+- 📊 Visualizar essas informações em tempo real  
+
+👉 Tudo isso de forma automática, utilizando sensores conectados ao Arduino.
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+## 🎯 Para que serve?
+
+O sistema pode ser utilizado para:
+
+- 🏠 Monitoramento residencial  
+- 🌱 Controle de estufas e plantas  
+- 🏢 Ambientes corporativos  
+- ⚡ Otimização de energia  
+- 🌍 Projetos de automação  
+
+---
+
+## 🧠 Como o sistema funciona?
+
+O funcionamento do sistema ocorre em etapas:
+
+1. 📡 Sensores coletam dados do ambiente  
+2. 🔌 Arduino recebe esses dados  
+3. 💻 O sistema em Java processa as informações  
+4. 📱 Os dados são exibidos em uma interface visual  
+
+---
+
+## 🔄 Fluxo do Sistema
 
 ```mermaid
-graph TD
-A[🌡️ Sensores] --> B[🔌 Arduino UNO]
-B --> C[💻 Java Backend]
-C --> D[📱 Interface]
-D --> E[👤 Usuário]
+graph LR
+A[🌡️ Sensores] --> B[Arduino UNO]
+B --> C[Java - Processamento]
+C --> D[Interface Visual]
+D --> E[Usuário]
