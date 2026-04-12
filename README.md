@@ -9,56 +9,42 @@
   <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/UI-Mobile-9C27B0?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-2962FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-Academic-green?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-> 💡 Sistema inteligente baseado em **IoT (Internet das Coisas)** para monitoramento de ambientes em tempo real.
+> 💡 Sistema inteligente baseado em IoT para monitoramento de ambientes em tempo real.
 
-Este projeto integra:
-
-- 🔌 **Hardware (Arduino UNO)**
-- 💻 **Backend (Java)**
-- 📱 **Interface Visual Mobile**
-
-Criando uma solução moderna, escalável e eficiente para monitoramento ambiental.
+Integra hardware, software e interface moderna para análise de dados ambientais.
 
 ---
 
-## 🎬 Demonstração
+## 🧠 Tecnologias Utilizadas
+
+### 🚀 Stack Principal
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xT0GqssRweIhlz209i/giphy.gif" width="500"/>
+  <img src="https://skillicons.dev/icons?i=java,arduino,git,github,figma" />
 </p>
 
 ---
 
-## 🧠 Motivação
+### 🛠️ Tecnologias Detalhadas
 
-A evolução da tecnologia permitiu a criação de ambientes inteligentes capazes de:
+<p align="center">
 
-- 🌡️ Monitorar temperatura  
-- 💧 Controlar umidade  
-- 💡 Detectar luminosidade  
-- 📊 Gerar insights em tempo real  
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/UML-FFCA28?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma"/>
+<img src="https://img.shields.io/badge/Tinkercad-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/IoT-00C853?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Sensores-03A9F4?style=for-the-badge"/>
 
-Este projeto simula uma **Smart Home**, aplicando conceitos modernos de automação.
-
----
-
-## 🎯 Objetivos
-
-### 🎯 Geral
-Desenvolver um sistema completo de monitoramento inteligente com IoT.
-
-### 📌 Específicos
-- Integração Arduino + Sensores  
-- Processamento de dados em Java  
-- Interface visual interativa  
-- Aplicação de UML e arquitetura de software  
+</p>
 
 ---
 
