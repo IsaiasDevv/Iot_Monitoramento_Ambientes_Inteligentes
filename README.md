@@ -10,45 +10,43 @@
 
 O **Smart IoT Environment Monitoring System** é um sistema desenvolvido para monitorar condições ambientais em tempo real utilizando sensores físicos e tecnologias de software.
 
-Este projeto foi criado como parte do **Projeto Integrador V – B** do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de aplicar, na prática, conceitos estudados ao longo do curso.
+Este projeto foi desenvolvido como parte do **Projeto Integrador V – B** do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de aplicar na prática os conhecimentos adquiridos ao longo da formação.
 
 ---
 
 ## 💡 O que é este projeto?
 
-Este projeto é um sistema que simula uma **casa inteligente (Smart Home)**.
+Este projeto representa um sistema de **automação residencial (Smart Home)** que permite monitorar o ambiente de forma inteligente.
 
-Ele permite:
+Com ele é possível:
 
-- 🌡️ Medir temperatura do ambiente  
-- 💧 Verificar umidade do ar  
+- 🌡️ Medir temperatura  
+- 💧 Monitorar umidade  
 - 💡 Detectar luminosidade  
-- 📊 Visualizar essas informações em tempo real  
-
-👉 Tudo isso de forma automática, utilizando sensores conectados ao Arduino.
+- 📊 Visualizar dados em tempo real  
 
 ---
 
 ## 🎯 Para que serve?
 
-O sistema pode ser utilizado para:
+Este sistema pode ser aplicado em:
 
-- 🏠 Monitoramento residencial  
-- 🌱 Controle de estufas e plantas  
+- 🏠 Casas inteligentes  
+- 🌱 Estufas agrícolas  
 - 🏢 Ambientes corporativos  
-- ⚡ Otimização de energia  
-- 🌍 Projetos de automação  
+- ⚡ Controle de energia  
+- 🌍 Projetos de IoT  
 
 ---
 
-## 🧠 Como o sistema funciona?
+## 🧠 Como funciona?
 
-O funcionamento do sistema ocorre em etapas:
+O sistema funciona em 4 etapas principais:
 
-1. 📡 Sensores coletam dados do ambiente  
-2. 🔌 Arduino recebe esses dados  
-3. 💻 O sistema em Java processa as informações  
-4. 📱 Os dados são exibidos em uma interface visual  
+1. 📡 Sensores coletam os dados  
+2. 🔌 Arduino processa e envia  
+3. 💻 Java recebe e organiza  
+4. 📱 Interface exibe para o usuário  
 
 ---
 
