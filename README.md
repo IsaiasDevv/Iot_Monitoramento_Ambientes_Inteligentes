@@ -1,47 +1,63 @@
 # 🌐 Smart IoT Environment Monitoring System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/IoT-Arduino-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Java-Backend-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/UI-Mobile-purple?style=for-the-badge"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=1000&lines=Smart+IoT+Environment+Monitoring+System;Sistema+Inteligente+com+Arduino+e+Java;Monitoramento+em+Tempo+Real;Tecnologia+%7C+Inovação+%7C+Automação" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IoT-Arduino-00C853?style=for-the-badge&logo=arduino"/>
+  <img src="https://img.shields.io/badge/Java-Backend-FF6F00?style=for-the-badge&logo=java"/>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-2962FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/UI-Mobile-9C27B0?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-O **Smart IoT Environment Monitoring System** é um sistema inteligente de monitoramento ambiental baseado em **Internet das Coisas (IoT)**.
+> 💡 Um sistema inteligente baseado em IoT capaz de monitorar ambientes em tempo real utilizando sensores físicos e interface digital.
 
-Este projeto foi desenvolvido como parte do **Projeto Integrador V – B** do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de integrar hardware e software para criar uma solução completa de monitoramento em tempo real.
+Este projeto integra:
 
-💡 A proposta consiste em coletar, processar e visualizar dados ambientais de forma inteligente, permitindo uma melhor tomada de decisão.
+- 🔌 **Hardware (Arduino)**
+- 💻 **Backend (Java)**
+- 📱 **Interface Visual (Mobile)**
+
+Criando uma solução completa de monitoramento ambiental.
+
+---
+
+## 🎬 Demonstração Visual
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="500"/>
+</p>
 
 ---
 
 ## 🧠 Motivação
 
-Com o avanço das tecnologias IoT, tornou-se possível criar ambientes inteligentes capazes de:
+Com o crescimento da **Internet das Coisas (IoT)**, tornou-se essencial desenvolver sistemas capazes de:
 
 - 🌡️ Monitorar temperatura  
-- 💧 Monitorar umidade  
-- 💡 Monitorar luminosidade  
-- 📊 Visualizar dados em tempo real  
+- 💧 Controlar umidade  
+- 💡 Analisar luminosidade  
+- 📊 Exibir dados em tempo real  
 
-Este sistema simula a modernização de ambientes residenciais, trazendo automação e inteligência.
+Este projeto simula uma **casa inteligente**, trazendo automação e eficiência.
 
 ---
 
 ## 🎯 Objetivos
 
 ### 🎯 Geral
-Desenvolver um sistema completo de monitoramento de ambientes inteligentes utilizando sensores IoT e interface gráfica.
+Desenvolver um sistema completo de monitoramento inteligente.
 
 ### 📌 Específicos
-- Integrar sensores com Arduino  
-- Desenvolver módulo em Java para processamento de dados  
-- Criar interface visual moderna  
-- Aplicar conceitos de arquitetura de sistemas  
+- Integração com sensores Arduino  
+- Processamento de dados com Java  
+- Interface moderna e responsiva  
+- Aplicação de conceitos de engenharia de software  
 
 ---
 
@@ -52,4 +68,4 @@ graph LR
 A[🌡️ Sensores] --> B[Arduino UNO]
 B --> C[Java Backend]
 C --> D[Interface Visual]
-D --> E[Usuário]
+D --> E[👤 Usuário]
